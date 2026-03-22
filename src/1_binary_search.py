@@ -24,7 +24,7 @@ class TestBinarySearch(unittest.TestCase):
     def test_result(self):
         nums: list[number] = [-1, 0, 3, 5, 9, 12]
         target: number = 9
-        self.assertEqual(binary_search(nums, target), target)
+        self.assertEqual(binary_search(nums, target), 4)
 
     def test_none(self):
         nums: list[number] = [-1,0,3,5,9,12]
